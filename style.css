@@ -1,0 +1,157 @@
+html {
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(odd) {
+    background-color: #d82c2e;
+}
+
+ul {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #d82c2e;
+    list-style-type: none;
+    position: fixed;
+    top: 0px;
+}
+
+li:hover {
+    background-color: #C12728;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#myFace {
+    border-radius: 100%;
+}
+
+#name {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#buttonCV {
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    outline: none;
+    color: aliceblue;
+    background-color: #d82c2e;
+    border-radius: 2px;
+}
+
+#buttonCV:hover {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: aliceblue;
+    color: #C12728;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+label {
+    margin-top: 20px;
+}
+
+#progressContainer,
+#progressContainer2,
+#progressContainer3 {
+    width: 50%;
+    background-color: #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#progress {
+    border-radius: 5px;
+    width: 2%;
+    height: 25px;
+    background-image: linear-gradient(to left, #F2709C, #FF9472);
+}
+
+#progress2 {
+    border-radius: 5px;
+    width: 2%;
+    height: 25px;
+    background-image: linear-gradient(to left, #F2709C, #FF9472);
+}
+
+#progress3 {
+    border-radius: 5px;
+    width: 2%;
+    height: 25px;
+    background-image: linear-gradient(to left, #F2709C, #FF9472);
+}
+
+.zona-timeline {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.custom {
+    background-color: #C12728;
+    padding-left: 20px;
+    border-left: 2px solid aliceblue;
+}
+
+#space {
+    height: 600px;
+}
+
+#info {
+    text-align: justify;
+    text-justify: inter-word;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#prim {
+    padding-top: 15em;
+}
+
+#sec6 {
+    margin-top: 26em;
+    height: 200px;
+}
+
+input {
+    outline: none;
+}
